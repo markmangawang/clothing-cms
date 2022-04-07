@@ -34,7 +34,7 @@ const App = () => {
         const { id, title } = category;
         return (
           <div className="">
-            <Category title={title} key={id} />)
+            <Category title={title} key={id} />
           </div>
         );
       })}
