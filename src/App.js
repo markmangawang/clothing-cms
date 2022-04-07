@@ -1,5 +1,5 @@
 // Components
-import Category from "./components/category.component";
+import Categories from "./components/Categories/Categories";
 
 const App = () => {
   const categories = [
@@ -27,7 +27,10 @@ const App = () => {
 
   return (
     <div className="App">
-      <Category categories={categories} />
+      {categories.map((category) => {
+        const { title, id } = category;
+        return <Categories title={title} key={id} />;
+      })}
     </div>
   );
 };
