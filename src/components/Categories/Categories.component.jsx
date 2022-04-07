@@ -1,3 +1,6 @@
+//Stylesheet
+import '../../styles/Categories/categories.styles.scss';
+
 const Category = ({ title }) => {
   return (
     <div className="category">
