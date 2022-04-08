@@ -33,7 +33,7 @@ const App = () => {
       {categories.map((category) => {
         const { id, title } = category;
         return (
-          <div className="">
+          <div className="categories-container">
             <Category title={title} key={id} />
           </div>
         );

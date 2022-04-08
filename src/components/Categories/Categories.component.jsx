@@ -5,7 +5,7 @@ const Category = ({ title }) => {
   return (
     <div className="category">
       <div className="category__body">
-        <img></img>
+        <div className="background-image"></div>
         <h2>{title}</h2>
         <p>Shop Now</p>
       </div>
