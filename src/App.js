@@ -1,5 +1,5 @@
 // Stylesheet
-import './App.css';
+import "./App.css";
 
 // Components
 import Category from "./components/Categories/Categories.component";
@@ -30,14 +30,12 @@ const App = () => {
 
   return (
     <div className="App">
-      {categories.map((category) => {
-        const { id, title } = category;
-        return (
-          <div className="categories-container">
-            <Category title={title} key={id} />
-          </div>
-        );
-      })}
+      <div className="categories-container">
+        {categories.map((category) => {
+          const { id, title } = category;
+          return <Category title={title} key={id} />;
+        })}
+      </div>
     </div>
   );
 };
