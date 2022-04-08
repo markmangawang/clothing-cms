@@ -1,5 +1,5 @@
 //Stylesheet
-import "../../styles/Categories/categories.styles.scss";
+import "../Categories/categories.styles.scss";
 
 const Category = ({ title, imageUrl }) => {
   return (
