@@ -3,16 +3,13 @@ import { Routes, Route} from "react-router-dom";
 
 import Home from "./routes/Home/Home.route";
 import Navigation from "./routes/Navigation/Navigation.route";
+import SignIn from "./routes/Sign-in/Sign-in.component";
 
 // Stylesheet
 import "./App.css";
 
 const Shop =()=>{
   return <h1>This is shop page.</h1>
-}
-
-const SignIn =()=>{
-  return <h1>This is sign-in page.</h1>
 }
 
 const App = () => {

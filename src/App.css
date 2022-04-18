@@ -6,3 +6,8 @@ a {
 * {
     box-sizing: border-box;
 }
+
+.container {
+    max-width: 75%;
+    margin: 0 auto;
+}
